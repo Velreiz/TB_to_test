@@ -1,0 +1,15 @@
+# config.py
+API_KEY = "your_api_key"
+API_SECRET = "your_api_secret"
+SERVER = "your_server"
+LOGIN = 12345
+PASSWORD = "your_password"
+SYMBOLS = ["EURUSD"]
+TIMEFRAME = "M15"
+MA_FAST = 12
+MA_SLOW = 26
+RSI_OVERBOUGHT = 70
+RSI_OVERSOLD = 30
+POSITION_SIZE = 0.1
+STOP_LOSS_POINTS = 50
+TAKE_PROFIT_POINTS = 100
