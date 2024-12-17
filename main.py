@@ -4,6 +4,7 @@ import strategy
 import trader
 import utils
 import time
+import logging
 from datetime import datetime
 import MetaTrader5 as mt5
 

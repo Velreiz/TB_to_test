@@ -21,6 +21,7 @@ def get_quotes(symbol, timeframe, count):
        df['time'] = pd.to_datetime(df['time'], unit='s') #конвертируем время
        df.set_index('time',inplace = True) #устанавливаем время в качестве индекса
        return df
+   
 def get_account_info():
          account = mt5.account_info() #получаем инфо о счете
          if account is None:
